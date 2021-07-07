@@ -20,7 +20,7 @@ function result {
 # ---
 
 version="4364"
-source_path="./driver-files"
+source_path="./drivers"
 dest_path="/lib/firmware/brcm"
 
 # ---
@@ -30,7 +30,7 @@ for source_filename in `ls -1 $source_path`; do
     case "${source_filename##*.}" in
         "trx") target_filename="brcmfmac${version}-pcie.bin" ;;
         "clmb") target_filename="brcmfmac${version}-pcie.clm_blob" ;;
-        "txt") target_filename="brcmfmac${version}-pcie.Apple Inc.-MacBookPro15,2.txt" ;;
+        "txt") target_filename="brcmfmac${version}-pcie.Apple Inc.-MacBookPro16,1.txt" ;;
         *) target_filename="" ;;
     esac
 
