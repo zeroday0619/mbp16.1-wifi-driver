@@ -1,4 +1,4 @@
-# mbp16-wifi-driver
+# mbp16.1-wifi-driver
 
 This repository provides scripts to make the installation process of the wifi driver files of the MacBookPro16,1 in Linux more convenient.
 
